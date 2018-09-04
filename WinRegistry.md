@@ -7,3 +7,6 @@ __Step 2__: In the Registry Editor, navigate to the following key:
 HKEY_CURRENT_USER\Control Panel\Desktop
 
 __Step 3__: On the right-side, look for the entry named ScreenSaveActive, double-click on it, and set the value to 1 (one) to enable screen saver and make it 0 (zero) to disable.
+
+### Disable Windows Update Medic Service
+Set field _Start_ in the HKLM\SYSTEM\CurrentControlSet\Services\WaaSMedicSvc to 4.
